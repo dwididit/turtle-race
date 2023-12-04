@@ -1,3 +1,5 @@
+# Welcome to Turtle Race. Created by Dwi Didit Prasetiyo
+
 from turtle import Turtle, Screen
 import random
 
