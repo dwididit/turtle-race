@@ -1,8 +1,6 @@
 # Welcome to Turtle Race. Created by Dwi Didit Prasetiyo
-
 from turtle import Turtle, Screen
 import random
-
 
 screen = Screen()
 screen.setup(width=600, height=600)
@@ -36,6 +34,5 @@ while is_race_on:
 
         random_distance = random.randint(0, 10)
         turtle.forward(random_distance)
-
 
 screen.exitonclick()
